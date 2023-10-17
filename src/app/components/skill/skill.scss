@@ -26,8 +26,8 @@
 
             border-radius: 24px;
             height: 30px;
-            border: 1px solid  linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
-            background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+            border: 1px solid  linear-gradient(90deg, #444af0 2.62%, #77f48c 93.38%);
+            background: linear-gradient(90deg, #464cfd 2.62%, #a9f477 93.38%);
 
             color: var(--text-primary);
             font-weight: 300;
@@ -35,16 +35,23 @@
             font-size: 12px;
 
             &.measure-1 {
-                width: 33%;
+                width: 20%;
             }
 
             &.measure-2 {
-                width: 66%;
+                width: 40%;
             }
 
             &.measure-3 {
+                width: 60%;
+            }
+            &.measure-4 {
+                width: 80%;
+            }
+            &.measure-5 {
                 width: 100%;
             }
+
         }
     }
 }
