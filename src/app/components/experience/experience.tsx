@@ -21,8 +21,8 @@ export function Experience(){
             <Skill image="/flask.png" measure={3} years="4 year"/>
             <Skill image="/php.png" measure={3} years="3 year"/>
             <Skill image="/laravel.png" measure={3} years="3 year"/>
-            <Skill image="/c.png" measure={2} years="2 year"/>
-            <Skill image="/net.png" measure={2} years="2 year"/>
+            <Skill image="/c.png" measure={3} years="3 year"/>
+            <Skill image="/net.png" measure={3} years="3 year"/>
 
           </div>
         </div>
