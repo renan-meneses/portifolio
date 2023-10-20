@@ -19,7 +19,7 @@ export function Info(){
         </div>
         <SectionTitle text="Detailed experience"/>
 
-        <div className="educational-info ">
+        <div className="buttons-info ">
         <Journey company = "Softmidia" office="Developer Full Stack Junior" period="Mai 2019 - Ago 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
         <Journey company = "Softbuilder" office="Developer Full Stack Junior" period="Mar 2020 - Nov 2020" description="Creation of education systems and extranets for companies, with emphasis on creating project automation, development for integration with mobile devices."/>
         <Journey company = "Hapvida" office="Developer Full Stack Junior / Mid Level" period="Nov 2020 - Jul 2021" description="Creation of a system focused on telemedicine and systems aimed at evaluating care, with the challenge of creating a reporting system and integrated class scheduling for professionals who had low evaluation scores. Develop applications by defining the technologies to be used. Presenting small workshops to introduce new technologies and new tools in the technological part."/>

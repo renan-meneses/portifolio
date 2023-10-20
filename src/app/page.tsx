@@ -15,7 +15,8 @@ export default function Home() {
         <Info/>
         <div className="buttons">
         <div className="educational-info ">
-        </div>
+
+          </div>
           <SocialBtns/>
           <a className="btn-primary" href="mailto:renanmenesesdev@gmail.com" target="_blank">
             contact me
