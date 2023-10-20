@@ -1,36 +1,36 @@
-.infos {
+.experience {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    gap: 24px;
     max-width: 500px;
 
-    grid-area: info;
+    gap: 24px;
 
-    .languages-info {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        align-items: flex-start;
-        width: 100%;
-    }
+    grid-area: experience;
 
-    span {
-        color: var(--text-secondary);
+    p {
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
+        color: var(--text-secondary);
+        text-align: center;
+    }
+
+    .experience-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
     }
 
     @media (min-width: 768px) {
         align-items: flex-start;
-        
-        span {
+
+        p {
             font-size: 20px;
             line-height: 36px;
             text-align: start;
         }
     }
-    
 }

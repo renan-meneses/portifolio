@@ -6,7 +6,7 @@ import { Info } from './components/information/information'
 import "./styles/home.scss"
 import { EmailIcon } from './components/icons/email-icon'
 import { SocialBtns } from './components/social-btns/social-btns'
-
+import {Journey} from './components/journey/journey'
 export default function Home() {
   return (
     <main className="container">
@@ -14,6 +14,13 @@ export default function Home() {
         <Experience/>
         <Info/>
         <div className="buttons">
+        <div className="educational-info ">
+        <Journey company = "Softmidia" office="Developer Junior" period="mai de 2019 - ago de 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
+        <Journey company = "Softmidia" office="Developer Junior" period="mai de 2019 - ago de 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
+        <Journey company = "Softmidia" office="Developer Junior" period="mai de 2019 - ago de 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
+        <Journey company = "Softmidia" office="Developer Junior" period="mai de 2019 - ago de 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
+        <Journey company = "Softmidia" office="Developer Junior" period="mai de 2019 - ago de 2019" description="Creation and development of web systems, analysis of system requirements development and data analysis."/>
+          </div>
           <SocialBtns/>
           <a className="btn-primary" href="mailto:renanmenesesdev@gmail.com" target="_blank">
             contact me

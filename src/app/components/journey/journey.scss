@@ -1,22 +1,41 @@
-.journey {
-    display: flex;
-    flex-direction: column;
+.journey-language {
+    display: inline;
     align-items: center;
-    max-width: 500px;
+    justify-content: center;
+    gap: 8px;
+    
 
-    gap: 24px;
+    .journey-unit {
+ 
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 
-    grid-area: journey;
+        .journey-measure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
 
+            color: var(--text-primary);
+            font-weight: 300;
+            text-align: center;
+            font-size: 12px;
+
+
+
+        }
+    }
     p {
         font-weight: 300;
-        font-size: 18px;
-        line-height: 28px;
-        color: var(--text-secondary);
+        font-size: 10px;
+        line-height: 18px;
+        color: var(--text-third);
         text-align: center;
     }
 
-    .journey-time {
+    .experience-time {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -28,8 +47,75 @@
         align-items: flex-start;
 
         p {
+            font-size: 10px;
+            line-height: 26px;
+            text-align: start;
+        }
+    }
+    h3 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--text-secondary);
+        text-align: center;
+    }
+
+    .experience-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+
+        h3 {
             font-size: 20px;
             line-height: 36px;
+            text-align: start;
+        }
+    }
+    h4 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        color: var(--text-primary);
+        text-align: center;
+    }
+
+    .experience-time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+
+        h4 {
+            font-size: 15px;
+            line-height: 31px;
+            text-align: start;
+        }
+    }
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+
+        span {
+            font-size: 10px;
+            line-height: 28px;
             text-align: start;
         }
     }
