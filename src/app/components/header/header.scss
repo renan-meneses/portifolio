@@ -1,7 +1,7 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    grid-area: header;
+    display: inline-flex;
+    flex-direction: center;
+    grid-area: auto;
     gap: 24px;
 
     img {

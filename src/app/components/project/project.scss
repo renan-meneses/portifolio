@@ -1,18 +1,18 @@
-.journey-language {
+.repo-language {
     display: inline;
     align-items: center;
     justify-content: center;
     gap: 8px;
     
 
-    .journey-unit {
+    .repo-unit {
  
         
         display: flex;
         justify-content: flex-start;
         align-items: center;
 
-        .journey-measure {
+        .repo-measure {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -29,8 +29,8 @@
     }
     p {
         font-weight: 300;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 18px;
         color: var(--text-third);
         text-align: center;
     }
